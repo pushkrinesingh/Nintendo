@@ -213,7 +213,6 @@ tr:nth-child(even) {
   color: white;
   border-radius: 5px;
   margin: 12px 0 10px 0;
-
 }
 
 footer {
@@ -243,7 +242,7 @@ footer {
   text-align: center;
 }
 .box:nth-of-type(2) h2 {
-    line-height: 1.2;
+  line-height: 1.2;
 }
 
 .box img {
@@ -303,8 +302,8 @@ footer {
   .scoop {
     flex-direction: column;
     align-items: center;
-    height: auto;           
-    padding-bottom: 60px;    
+    height: auto;
+    padding-bottom: 60px;
   }
   .scoopbar {
     width: 90%;
@@ -314,18 +313,30 @@ footer {
   }
 
   footer {
-    flex-direction: column;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;          
+    justify-content: space-between; 
     align-items: center;
-    gap: 15px;
-    padding: 15px;
+    background-color: rgb(255, 230, 215);
+    padding: 10px 15px;
+    text-align: center;
+    gap: 10px;
+  }
+
+  footer .box {
+    flex: 1;                      
     text-align: center;
   }
 
-  .box img {
-    width: 120px;
-    height: 120px;
+  footer .box img {
+    width: 80px;
+    height: 80px;
   }
 
-
+  footer .box a {
+    font-size: 13px;
+    padding: 6px 10px;
+  }
 }
-
