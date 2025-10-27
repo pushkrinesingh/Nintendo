@@ -278,16 +278,14 @@ footer {
 
   .game,
   .switch-wrapper,
-  .launch-wrapper,
-  .scoop {
+  .launch-wrapper {
     flex-direction: column;
     align-items: center;
   }
 
   .changer,
   .apart,
-  .title,
-  .scoopbar {
+  .title {
     width: 90%;
     height: auto;
     margin-bottom: 20px;
@@ -301,6 +299,18 @@ footer {
 
   td {
     padding: 10px;
+  }
+  .scoop {
+    flex-direction: column;
+    align-items: center;
+    height: auto;           
+    padding-bottom: 60px;    
+  }
+  .scoopbar {
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 15px;
   }
 
   footer {
@@ -316,15 +326,6 @@ footer {
     height: 120px;
   }
 
-  .submit input {
-    width: 85%;
-    font-size: 14px;
-  }
 
-  .submit button {
-    width: 65%;
-    padding: 10px;
-    font-size: 14px;
-  }
 }
 
