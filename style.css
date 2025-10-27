@@ -254,21 +254,34 @@ footer {
 @media (max-width: 480px) {
   header {
     height: 300px;
-    text-align: center;
+    background-position: center;
   }
-  .wrapper{
+
+  .wrapper {
     width: 90%;
   }
-   .wrapper h1 {
+
+  .wrapper h1 {
     font-size: 28px;
+    text-align: center;
   }
 
   .wrapper h2 {
     font-size: 18px;
+    text-align: center;
   }
 
   .wrapper p {
     font-size: 13px;
+    text-align: center;
+  }
+
+  .game,
+  .switch-wrapper,
+  .launch-wrapper,
+  .scoop {
+    flex-direction: column;
+    align-items: center;
   }
 
   .changer,
@@ -277,13 +290,8 @@ footer {
   .scoopbar {
     width: 90%;
     height: auto;
+    margin-bottom: 20px;
     padding: 20px 0;
-  }
-
-  .changer p,
-  .apart p,
-  .scoopbar p {
-    font-size: 13px;
   }
 
   table {
@@ -291,11 +299,16 @@ footer {
     font-size: 12px;
   }
 
+  td {
+    padding: 10px;
+  }
+
   footer {
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
     padding: 15px;
+    text-align: center;
   }
 
   .box img {
@@ -304,10 +317,14 @@ footer {
   }
 
   .submit input {
-    width: 80%;
+    width: 85%;
+    font-size: 14px;
   }
 
   .submit button {
-    width: 60%;
+    width: 65%;
+    padding: 10px;
+    font-size: 14px;
   }
 }
+
