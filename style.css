@@ -250,3 +250,64 @@ footer {
   height: 200px;
   width: 200px;
 }
+
+@media (max-width: 480px) {
+  header {
+    height: 300px;
+    text-align: center;
+  }
+  .wrapper{
+    width: 90%;
+  }
+   .wrapper h1 {
+    font-size: 28px;
+  }
+
+  .wrapper h2 {
+    font-size: 18px;
+  }
+
+  .wrapper p {
+    font-size: 13px;
+  }
+
+  .changer,
+  .apart,
+  .title,
+  .scoopbar {
+    width: 90%;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .changer p,
+  .apart p,
+  .scoopbar p {
+    font-size: 13px;
+  }
+
+  table {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .box img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .submit input {
+    width: 80%;
+  }
+
+  .submit button {
+    width: 60%;
+  }
+}
