@@ -90,7 +90,7 @@ section h2 {
   font-size: 15px;
 }
 .table p {
-  width: 680px;
+  width: 100%;
   color: grey;
   margin: auto;
   padding-bottom: 30px;
@@ -248,6 +248,48 @@ footer {
 .box img {
   height: 200px;
   width: 200px;
+}
+@media (max-width:992px){
+  .wrapper{
+    width: 100%;
+  }
+  .wrapper h1{
+    font-size: 30px;
+  }
+  .scoop{
+    /* flex-direction: column; */
+    height: auto;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .scoopbar{
+    width: 48%;
+    height: auto;
+  }
+  footer{
+    flex-direction: column;
+  }
+  .box{
+    width: 100%;
+  }
+  .game{
+    flex-direction: column;
+  }
+  .changer{
+    width: 100%;
+  }
+  .switch-wrapper{
+    flex-direction: column;
+  }
+  .apart{
+    width: 100%;
+  }
+  .launch-wrapper{
+    flex-direction: column;
+  }
+  .title{
+    width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
