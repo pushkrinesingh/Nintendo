@@ -329,6 +329,7 @@ footer {
   .title {
     width: 90%;
     padding: 20px;
+    margin-bottom: 10px;
   }
 
   table {
