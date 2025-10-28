@@ -22,7 +22,7 @@ header::before {
   width: 100%;
   height: 100%;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 header div,
 header p,
@@ -258,21 +258,20 @@ footer {
 
   .wrapper {
     width: 90%;
-
   }
 
   .wrapper h1 {
-    font-size: 28px;
+    font-size: 30px;
     text-align: center;
   }
 
   .wrapper h2 {
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
   }
 
   .wrapper p {
-    font-size: 13px;
+    font-size: 15px;
     text-align: center;
   }
 
@@ -287,21 +286,18 @@ footer {
   .apart,
   .title {
     width: 90%;
-    height: auto;
-    margin-bottom: 20px;
     padding: 20px 0;
   }
-  
 
   table {
-    width: 100%;
+    width: 90%;
     font-size: 12px;
   }
 
   td {
     padding: 10px;
   }
-  .table p{
+  .table p {
     width: 300px;
     margin: auto;
   }
@@ -325,8 +321,16 @@ footer {
     padding: 15px;
     text-align: center;
   }
-  .box img {
-    width: 150px;
-    height: 150px;
+  .box:nth-of-type(2) {
+    width: 400px;
+    /* margin: auto; */
+    /* text-align: center; */
+    /* align-items: center; */
+  }
+  .box:first-of-type,
+  .box:last-of-type {
+    align-items: center;
+    width: 50%;
+    /* height: 50%; */
   }
 }
