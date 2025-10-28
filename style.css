@@ -252,12 +252,13 @@ footer {
 
 @media (max-width: 480px) {
   header {
-    height: 300px;
+    height: 400px;
     background-position: center;
   }
 
   .wrapper {
     width: 90%;
+
   }
 
   .wrapper h1 {
