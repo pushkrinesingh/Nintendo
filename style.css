@@ -300,8 +300,9 @@ footer {
   td {
     padding: 10px;
   }
-  section p{
-    width: 250px;
+  .table p{
+    width: 300px;
+    margin: auto;
   }
   .scoop {
     flex-direction: column;
